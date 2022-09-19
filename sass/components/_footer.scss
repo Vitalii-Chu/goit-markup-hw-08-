@@ -1,0 +1,11 @@
+.footer {
+    background-color: var(--header-footer-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer__container {
+    background-color: var(--header-footer-color);
+    display: flex;
+    align-items: baseline;
+}
