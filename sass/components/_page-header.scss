@@ -2,7 +2,21 @@
     border-bottom: 1px solid var(--header-line);
 }
 
+// .container--centered {
+//     display: flex;
+//     align-items: center;
+// }
+
+@media screen and (max-width: 767px) {
+  .page-header {
+    background: #303030;
+    position: relative;
+    padding: 10px 0;
+  }
+}
+
 .container--centered {
-    display: flex;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
