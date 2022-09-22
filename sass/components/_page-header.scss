@@ -1,15 +1,16 @@
 .page-header {
-    border-bottom: 1px solid var(--header-line);
+  border-bottom: 1px solid var(--header-line);
 }
 
-// .container--centered {
-//     display: flex;
-//     align-items: center;
-// }
+
+@media screen and (max-width: 1199px) {
+  .container--centered {
+    justify-content: space-between;
+  }
+}
 
 @media screen and (max-width: 767px) {
   .page-header {
-    background: #303030;
     position: relative;
     padding: 10px 0;
   }
@@ -17,6 +18,4 @@
 
 .container--centered {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+  align-items: center;}
