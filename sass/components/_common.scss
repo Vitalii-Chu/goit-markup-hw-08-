@@ -42,10 +42,34 @@ address {
     font-style: normal;
 }
 
-
 .section--padding-removed {
     padding-top: var(--main-gap);
     padding-bottom: var(--main-gap);
+}
+
+@media screen and (max-width:1199px) {
+    .section--padding-removed{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    }
+}
+
+
+.section__tittle {
+    color: var(--text-color-decoration);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    margin-bottom: var(--middle-gap);
+    text-align: center;
+}
+
+@media screen and(max-width:1199px) {
+ .section__tittle{
+    font-size: 28px;
+    line-height: 1.17;
+    margin-bottom: var(--min-gap);
+ }   
 }
 
 .text--padding-removed {

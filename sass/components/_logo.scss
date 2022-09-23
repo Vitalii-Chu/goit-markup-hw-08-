@@ -1,11 +1,13 @@
+
+
 .logo {
   font-family: Raleway, sans-serif;
+  font-weight: 700;
   text-decoration: none;
-  font-size: 26px;
-  line-height: 1.2;
+  font-size: 24px;
+  line-height: 1.16;
   color: var(--accent-color);
   cursor: pointer;
-  margin-right: var(--main-gap);
 }
 
 .logo__header--text {
@@ -18,9 +20,17 @@
 
 @media screen and (min-width: 768px) {
   .logo {
-    font-weight: 700;
+   
     margin-right: 87px;
-    font-size: 24px;
-    line-height: 1.16;
   }
+}
+
+
+@media screen and (min-width:1200px) {
+  .logo{
+      font-size: 26px;
+        line-height: 1.19;
+  margin-right: 92px;
+  }
+  
 }

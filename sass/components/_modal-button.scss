@@ -3,13 +3,28 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
-    width: 528px;
+    max-width: 450px;
+    width: 100%;
     background-color: var(--white-color);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding: 40px;
     border-radius: 4px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-height:660px) {
+    .modal{
+        top:15px;
+        transform: translate(-50%, 0)
+    }
+    
+}
+
+@media screen and(min-width:1200px) {
+    .modal{
+    max-width: 528px;
+    }
 }
 
 .modal__close-button {

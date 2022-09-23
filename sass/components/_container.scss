@@ -1,8 +1,4 @@
-.container {
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
+@media screen and (max-width:767px) {
 .mobile-menu__container {
   position: relative;
   padding: 48px 40px;
@@ -10,6 +6,18 @@
   flex-direction: column;
   height: 100vh;
 }
+  
+}
+
+.container {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+
+
 // 480px+
 @media screen and (min-width: 480px) {
   .container {
