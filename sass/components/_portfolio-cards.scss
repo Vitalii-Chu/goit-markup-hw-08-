@@ -1,3 +1,9 @@
+@media screen and(max-width:767px) {
+  .portfolio {
+    justify-content: center;
+  }
+}
+
 .portfolio {
   display: flex;
   flex-wrap: wrap;
@@ -6,10 +12,22 @@
   background-color: var(--white-color);
 }
 
+// @media screen and(min-width:768px) {
+//   .portfolio__cards-list {
+//     flex-basis: calc((100 - 30px) / 2);
+//   }
+// }
+
+// @media screen and(min-width:1200px) {
+//   .portfolio__cards-list {
+//     flex-basis: calc((100 - 90px) / 3);
+//   }
+// }
+
 .portfolio__cards-list {
   margin-left: var(--min-gap);
   margin-top: var(--min-gap);
-  flex-basis: calc((100 - 90) / 3);
+
 }
 
 .portfolio__link {
