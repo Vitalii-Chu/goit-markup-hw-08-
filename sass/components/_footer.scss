@@ -1,11 +1,20 @@
 .footer {
-    background-color: var(--header-footer-color);
-    padding-top: 60px;
-    padding-bottom: 60px;
+  background-color: var(--header-footer-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
-.footer__container {
-    background-color: var(--header-footer-color);
+@media screen and(max-width:1199px) {
+  .footer__contacts-wrapper {
+    text-align: center;
+  }
+}
+
+@media screen and(min-width:768px) {
+  .footer__container {
     display: flex;
     align-items: baseline;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
 }
