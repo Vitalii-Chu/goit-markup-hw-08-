@@ -24,9 +24,8 @@
   }
 }
 
-@media screen and (max-width:1199px) {
+@media screen and (max-width: 1199px) {
   .client-list {
-
     flex-wrap: wrap;
     margin-top: -30px;
     margin-left: -30px;
@@ -42,23 +41,19 @@
   }
 }
 
-@media screen and (min-width:768px) {
-
+@media screen and (min-width: 768px) {
   .client-list__link {
     width: 226px;
   }
-
 }
 
-@media screen and (min-width:1200px) {
-
+@media screen and (min-width: 1200px) {
   .client-list {
     justify-content: space-between;
   }
-    .client-list__link {
-      width: 170px;
-    }
-
+  .client-list__link {
+    width: 170px;
+  }
 }
 
 .client-list__icon {

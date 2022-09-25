@@ -1,19 +1,19 @@
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 * *::before,
 *::after {
-    box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 body {
-    background-color: var(--background-color);
-    color: var(--primary-text-color);
-    font-family: Roboto, sans-serif;
-    letter-spacing: 0.03em;
-    font-size: 14px;
-    line-height: 1.71;
+  background-color: var(--background-color);
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 h1,
@@ -21,67 +21,65 @@ h2,
 h3,
 h4,
 p {
-    margin-top: 0;
-    margin-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 ul {
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 0;
-    list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
 }
 
 img {
-    display: block;
-    max-width: 100%;
-    height: auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 address {
-    font-style: normal;
+  font-style: normal;
 }
 
 .section--padding-removed {
-    padding-top: var(--main-gap);
-    padding-bottom: var(--main-gap);
+  padding-top: var(--main-gap);
+  padding-bottom: var(--main-gap);
 }
 
-@media screen and (max-width:1199px) {
-    .section--padding-removed{
+@media screen and (max-width: 1199px) {
+  .section--padding-removed {
     padding-top: 60px;
     padding-bottom: 60px;
-    }
+  }
 }
 
-
 .section__tittle {
-    color: var(--text-color-decoration);
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    margin-bottom: var(--middle-gap);
-    text-align: center;
+  color: var(--text-color-decoration);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  margin-bottom: var(--middle-gap);
+  text-align: center;
 }
 
 @media screen and(max-width:1199px) {
- .section__tittle{
+  .section__tittle {
     font-size: 28px;
     line-height: 1.17;
     margin-bottom: var(--min-gap);
- }   
+  }
 }
 
 .text--padding-removed {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .portfolio-section {
-    padding-top: 94px;
-    padding-bottom: 91px;
+  padding-top: 94px;
+  padding-bottom: 91px;
 
-    @media screen and(max-width:1199px) {
-        padding: 60px 0;
-        
-    }
+  @media screen and(max-width:1199px) {
+    padding: 60px 0;
+  }
 }

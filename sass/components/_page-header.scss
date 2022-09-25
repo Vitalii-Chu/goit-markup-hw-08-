@@ -2,7 +2,6 @@
   border-bottom: 1px solid var(--header-line);
 }
 
-
 @media screen and (max-width: 1199px) {
   .container--centered {
     justify-content: space-between;
@@ -18,4 +17,5 @@
 
 .container--centered {
   display: flex;
-  align-items: center;}
+  align-items: center;
+}

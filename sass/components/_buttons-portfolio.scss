@@ -1,34 +1,24 @@
-
-
 .buttons-list {
   display: flex;
-  // margin-bottom: var(--middle-gap);
   margin-bottom: 40px;
   justify-content: center;
   flex-wrap: wrap;
-@media screen and(min-width:768px) {
+  @media screen and(min-width:768px) {
     margin-bottom: 30px;
   }
 
-@media screen and(min-width:1200px) {
-
-  margin-bottom:var(--middle-gap);
-}
-
-}
-
-
-
-
-
-@media screen and(max-width:767px) {
-  .buttons-list {
-  justify-content: flex-start;
-    max-width:320px;
-    gap: 15px 0;
+  @media screen and(min-width:1200px) {
+    margin-bottom: var(--middle-gap);
   }
 }
 
+@media screen and(max-width:767px) {
+  .buttons-list {
+    justify-content: flex-start;
+    max-width: 320px;
+    gap: 15px 0;
+  }
+}
 
 .buttons-list__item:not(:last-child) {
   margin-right: 8px;

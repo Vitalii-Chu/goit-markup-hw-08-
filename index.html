@@ -126,17 +126,17 @@
     <!--Hero-->
     <main>
       <section class="hero-section">
-          <h1 class="hero-section__tittle">
-            Ефективні рішення для вашого бізнесу
-          </h1>
-          <div class="hero-button">
-            <button type="button" class="hero-button__primary" data-modal-open>
-              Замовити послугу
-            </button>
-          </div>
+        <h1 class="hero-section__tittle">
+          Ефективні рішення для вашого бізнесу
+        </h1>
+        <div class="hero-button">
+          <button type="button" class="hero-button__primary" data-modal-open>
+            Замовити послугу
+          </button>
+        </div>
       </section>
-    <!--about-->
-    <section class="section-about section--padding-removed">
+      <!--about-->
+      <section class="section-about section--padding-removed">
         <div class="container">
           <h2 class="visibility-hidden">Наші переваги та пріоритети</h2>
           <ul class="advantage">
@@ -198,48 +198,114 @@
           </ul>
         </div>
       </section>
-    <!--our work-->
-    <section class="our-work section--padding-removed">
+      <!--our work-->
+      <section class="our-work section--padding-removed">
         <div class="container">
           <h2 class="section__tittle">Чим ми займаємося</h2>
           <ul class="work-list">
             <li class="work-list__item">
-              <img src="./images/box1.jpg" alt="ТЗ" width="370" height="294" />
+              <picture>
+                <source
+                  srcset="
+                    ./images/desktop1200.webp    1x,
+                    ./images/desktop1200@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <img
+                  srcset="
+                    ./images/desktop1200.jpg    1x,
+                    ./images/desktop1200@2x.jpg 2x
+                  "
+                  src="./images/desktop1200.jpg"
+                  alt="Десктопні додатки"
+                />
+              </picture>
+
               <p class="work-list__discription">Десктопні додатки</p>
             </li>
             <li class="work-list__item">
-              <img
-                src="./images/box2.jpg"
-                alt="смарт"
-                width="370"
-                height="294"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/mobile1200.webp    1x,
+                    ./images/mobile1200@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <img
+                  srcset="
+                    ./images/mobile1200.jpg    1x,
+                    ./images/mobile1200@2x.jpg 2x
+                  "
+                  src="./images/mobile1200.jpg"
+                  alt="Мобільні додатки"
+                />
+              </picture>
               <p class="work-list__discription">Мобільні додатки</p>
             </li>
             <li class="work-list__item">
-              <img
-                src="./images/box3.jpg"
-                alt="планшет"
-                width="370"
-                height="294"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/tablet1200.webp    1x,
+                    ./images/tablet1200@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <img
+                  srcset="
+                    ./images/tablet1200.jpg    1x,
+                    ./images/tablet1200@2x.jpg 2x
+                  "
+                  src="./images/tablet1200.jpg"
+                  alt="Дизайнерські рішення"
+                />
+              </picture>
               <p class="work-list__discription">Дизайнерські рішення</p>
             </li>
           </ul>
         </div>
       </section>
-    <!-- our team -->
-    <section class="section-team section--padding-removed">
+      <!-- our team -->
+      <section class="section-team section--padding-removed">
         <div class="container">
           <h2 class="section__tittle">Наша команда</h2>
           <ul class="team-cards">
             <li class="team-cards__list">
-              <img
-                src="./images/igor-450.jpg"
-                alt="Ігор"
-                width="450"
-                height="460"
-              />
+              <picture>
+                <source
+                  srcset="./images/ihor1200.webp 1x, images/ihor1200@2x.webp 2x"
+                  media="(min-width:1200px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="./images/ihor1200.jpg 1x, images/ihor1200@2x.jpg 2x"
+                  media="(min-width:1200px)"
+                />
+
+                <source
+                  srcset="./images/ihor354.webp 1x, images/ihor354@2x.webp 2x"
+                  media="(min-width:768px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="./images/ihor354.jpg 1x, images/ihor354@2x.jpg 2x"
+                  media="(min-width:768px)"
+                />
+
+                <source
+                  srcset="./images/ihor450.webp 1x, images/ihor450@2x.webp 2x"
+                  media="(max-width:767px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="./images/ihor450.jpg 1x, images/ihor450@2x.jpg 2x"
+                  media="(max-width:767px)"
+                />
+
+                <img src="./images/igor450.jpg" alt="Ігор Дем'яненко" />
+              </picture>
               <div class="content-wrapper">
                 <h3 class="content-wrapper__tittle text--padding-removed">
                   Ігор Дем'яненко
@@ -278,12 +344,40 @@
               </div>
             </li>
             <li class="team-cards__list">
-              <img
-                src="./images/olha-450.jpg"
-                alt="Ольга"
-               width="450"
-                height="460"
-              />
+              <picture>
+                <source
+                  srcset="./images/olha1200.webp 1x, images/olha1200@2x.webp 2x"
+                  media="(min-width:1200px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="./images/olha1200.jpg 1x, images/olha1200@2x.jpg 2x"
+                  media="(min-width:1200px)"
+                />
+
+                <source
+                  srcset="./images/olha354.webp 1x, images/olha354@2x.webp 2x"
+                  media="(min-width:768px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="./images/olha354.jpg 1x, images/olha354@2x.jpg 2x"
+                  media="(min-width:768px)"
+                />
+
+                <source
+                  srcset="./images/olha450.webp 1x, images/olha450@2x.webp 2x"
+                  media="(max-width:767px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="./images/olha450.jpg 1x, images/olha450@2x.jpg 2x"
+                  media="(max-width:767px)"
+                />
+
+                <img src="./images/olha450.jpg" alt="Ольга Рєпіна" />
+              </picture>
+
               <div class="content-wrapper">
                 <h3 class="content-wrapper__tittle text--padding-removed">
                   Ольга Рєпіна
@@ -324,12 +418,52 @@
               </div>
             </li>
             <li class="team-cards__list">
-              <img
-                src="./images/nikolai-450.jpg"
-                alt="Микола"
-             width="450"
-                height="460"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/mykola1200.webp  1x,
+                    images/mykola1200@2x.webp 2x
+                  "
+                  media="(min-width:1200px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/mykola1200.jpg  1x,
+                    images/mykola1200@2x.jpg 2x
+                  "
+                  media="(min-width:1200px)"
+                />
+
+                <source
+                  srcset="
+                    ./images/mykola354.webp  1x,
+                    images/mykola354@2x.webp 2x
+                  "
+                  media="(min-width:768px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="./images/mykola354.jpg 1x, images/mykola354@2x.jpg 2x"
+                  media="(min-width:768px)"
+                />
+
+                <source
+                  srcset="
+                    ./images/mykola450.webp  1x,
+                    images/mykola450@2x.webp 2x
+                  "
+                  media="(max-width:767px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="./images/mykola450.jpg 1x, images/mykola450@2x.jpg 2x"
+                  media="(max-width:767px)"
+                />
+
+                <img src="./images/mykola450.jpg" alt=" Микола Тарасов" />
+              </picture>
+
               <div class="content-wrapper">
                 <h3 class="content-wrapper__tittle text--padding-removed">
                   Микола Тарасов
@@ -368,12 +502,57 @@
               </div>
             </li>
             <li class="team-cards__list">
-              <img
-                src="./images/michael-450.jpg"
-                alt="Михайло"
-             width="450"
-                height="460"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/mykhailo1200.webp  1x,
+                    images/mykhailo1200@2x.webp 2x
+                  "
+                  media="(min-width:1200px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/mykhailo1200.jpg  1x,
+                    images/mykhailo1200@2x.jpg 2x
+                  "
+                  media="(min-width:1200px)"
+                />
+
+                <source
+                  srcset="
+                    ./images/mykhailo354.webp  1x,
+                    images/mykhailo354@2x.webp 2x
+                  "
+                  media="(min-width:768px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/mykhailo354.jpg  1x,
+                    images/mykhailo354@2x.jpg 2x
+                  "
+                  media="(min-width:768px)"
+                />
+
+                <source
+                  srcset="
+                    ./images/mykhailo450.webp  1x,
+                    images/mykhailo450@2x.webp 2x
+                  "
+                  media="(max-width:767px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/mykhailo450.jpg  1x,
+                    images/mykhailo450@2x.jpg 2x
+                  "
+                  media="(max-width:767px)"
+                />
+
+                <img src="./images/mykhailo450.jpg" alt="  Михайло Єрмаков" />
+              </picture>
               <div class="content-wrapper">
                 <h3 class="content-wrapper__tittle text--padding-removed">
                   Михайло Єрмаков
@@ -414,8 +593,8 @@
           </ul>
         </div>
       </section>
-    <!--our client-->
-    <section class="section-client">
+      <!--our client-->
+      <section class="section-client">
         <div class="container">
           <h2 class="section__tittle">Постійні клієнти</h2>
           <ul class="client-list">
