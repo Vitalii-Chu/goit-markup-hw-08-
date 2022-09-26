@@ -954,11 +954,6 @@ body.modal--open {
   fill: var(--white-color);
 }
 
-.section-client {
-  padding-top: 94px;
-  padding-bottom: 88px;
-}
-
 .client-list {
   display: -webkit-box;
   display: -ms-flexbox;
