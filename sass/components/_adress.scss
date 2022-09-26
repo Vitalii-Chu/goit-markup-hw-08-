@@ -19,14 +19,16 @@
 .contacts-list__item:not(:last-child) {
   margin-bottom: 8px;
 
-  @media screen and(min-width:1200px) {
+}
+@media screen and(min-width:1200px) {
+  .contacts-list__item:not(:last-child){
+margin-bottom: 9px;
+  }
+ 
+.footer-address{
+  margin-bottom: 0;
+}
+  .footer-address__text {
     margin-bottom: 9px;
-    .footer-address__text {
-      margin-bottom: 9px;
-    }
-
-    .footer-address {
-      margin-bottom: 0;
-    }
   }
 }
